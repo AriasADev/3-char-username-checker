@@ -47,7 +47,7 @@ cd /path/to/directory
 Run the script:
 
 ```bash
-python namemc.py
+python main.py
 ```
 
 ### 2. Monitoring Output
@@ -70,7 +70,7 @@ Even if a username is marked as "available," it may be in a **"locked" state** i
 
 To check usernames of a different length (e.g., 4 characters), modify the `itertools.product` call:
 
-1. Open `namemc.py`.
+1. Open `main.py`.
 2. Change this line:
 
 ```python
@@ -89,7 +89,7 @@ This will check 4-character usernames instead of 3.
 
 If you encounter frequent rate limits:
 
-1. Open `namemc.py`.
+1. Open `main.py`.
 2. Adjust the sleep time after hitting a rate limit:
 
 ```python

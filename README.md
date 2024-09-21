@@ -21,7 +21,7 @@ This Python script checks the availability of 3-character Minecraft usernames us
 Clone this repository using Git:
 
 ```bash
-git clone https://github.com/AriasADev/3-char-username-checker.git
+git clone https://github.com/your-repo/username-checker.git
 ```
 
 Or download the ZIP file and extract it to your preferred directory.
@@ -59,6 +59,10 @@ The script will display real-time progress in the terminal, indicating which use
 - `taken_usernames.txt`: Contains all taken usernames found during the check.
 
 These files are updated live as the program runs.
+
+### Important Note
+
+Even if a username is marked as "available," it may be in a **"locked" state** if it has been changed recently. Usernames become available to be claimed **36 days** after they are changed. If you cannot claim a username marked as available, it is likely in this locked state.
 
 ## Customization
 

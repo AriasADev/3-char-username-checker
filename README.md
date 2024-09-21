@@ -118,3 +118,7 @@ To add more detailed logging for debugging purposes, insert print statements to 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Disclaimer
+
+This code and the accompanying README were created with assistance from ChatGPT, an AI language model developed by OpenAI. Please use this code responsibly and ensure it complies with the terms and conditions of the platforms you are interacting with.
